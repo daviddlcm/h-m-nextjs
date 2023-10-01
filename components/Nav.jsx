@@ -12,8 +12,8 @@ function Navbar() {
         <p className='textNav'>H&M HOME</p>
         <p className='textNav'>Beauty</p>
         <p className='textNav'>Sport</p>
-        <p className='textNav'>Rebajas</p>
         <p className='textNav'>Sustentabilidad</p>
+        <p className='textNav'>Rebajas</p>
         <div className="busqueda">
           <input className='inputBus' type="text"  placeholder='Buscar productos'/>
         </div>

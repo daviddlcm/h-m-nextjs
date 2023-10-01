@@ -34,8 +34,6 @@
     margin-left: 70px;
 }
 .footer__container{
-    position: absolute;
-    bottom: 0;
     width: 100%;
     background-color: #E4E4E4;
     display: flex;
@@ -61,4 +59,71 @@ footer{
 }
 .textoAbajo p{
     font-size: 14px;
+}
+.textos__container{
+    display: flex;
+    justify-content: center;
+}
+.textos{
+    display: flex;
+    justify-content: space-between;
+    width: 49%;
+}
+.boton{
+    border: none;
+    background-color: #ffffff;
+    padding: 7px 10px;
+    font-size: 17px;
+}
+.boton:hover{
+    background-color: #c4c4c4;
+}
+.imgSecciones__container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 20vw;
+}
+.botones__container button{
+    margin: 0 4px;
+}
+.imgSeccionArena{
+    width: 70%;
+    height: 170px;
+    object-fit: cover;
+}
+.imgSecciones{
+    text-align: center;
+    width: 70%;
+    position: absolute;
+    height: 150px;
+    top: -7px;
+}
+.imgBig__container{
+    margin: 65px 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 37vw;
+    background-color: red;
+}
+.img_Big{
+    width: 70%;
+    height: auto;
+    object-fit: cover;
+}
+.imgBig{
+    text-align: center;
+    width: 70%;
+    position: absolute;
+    height: 150px;
+    bottom: 70px; 
+    color: #ffffff;
+}
+.imgBig p{
+    margin-top: -25px;
+    font-size: 20px;
+}
+.imgBig h1{
+    font-size: 45px;
 }
