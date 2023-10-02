@@ -1,12 +1,5 @@
 import React from 'react'
 import CardItem from './CardItem'
-import img1 from "../public/assets/ropa1.png"
-import img2 from "../public/assets/ropa2.png"
-import img3 from "../public/assets/ropa3.png"
-import img4 from "../public/assets/ropa4.png"
-import img5 from "../public/assets/ropa5.png"
-import img6 from "../public/assets/ropa6.webp"
-import img7 from "../public/assets/ropa7.webp"
 function Carusel() {
   return (
     <div>

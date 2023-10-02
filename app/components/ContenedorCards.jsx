@@ -1,9 +1,9 @@
 import React from 'react'
 import Card from './Card'
 import "./styles.css"
-import Modelo1 from "../public/assets/modelo1.jpg"
-import Modelo2 from "../public/assets/modelo2.jpg"
-import Modelo3 from "../public/assets/modelo3.jpg"
+import Modelo1 from "../../public/assets/modelo1.jpg"
+import Modelo2 from "../../public/assets/modelo2.jpg"
+import Modelo3 from "../../public/assets/modelo3.jpg"
 function contenedorCards() {
   return (
       <div className="completo__container">

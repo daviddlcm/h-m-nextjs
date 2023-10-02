@@ -1,10 +1,10 @@
 import React from "react";
 import "./styles.css"
 import Img from "next/image"
-import usuario from "../public/assets/delantero.png"
-import bolsa from "../public/assets/bolso.png"
-import corazon from "../public/assets/me-gusta.png"
-import logo from "../public/assets/H&M-Logo.svg.png"
+import usuario from "../../public/assets/delantero.png"
+import bolsa from "../../public/assets/bolso.png"
+import corazon from "../../public/assets/me-gusta.png"
+import logo from "../../public/assets/H&M-Logo.svg.png"
 function Header() {
   return (
     <div className="header__container">

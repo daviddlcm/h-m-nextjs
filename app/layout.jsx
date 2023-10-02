@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from '../components/Header'
-import Navbar from "../components/Nav"
-import Footer from '../components/Footer'
+import Header from './components/Header'
+import Navbar from "./components/Nav"
+import Footer from './components/Footer'
 import { Oswald } from "next/font/google"
 const oswald= Oswald({
   weight:["300","400"],

@@ -3,14 +3,16 @@ import React, { useEffect, useState } from 'react';
 import Img from 'next/image';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js"
+import Link from 'next/link';
 function Api() {
   const [photos, setPhotos] = useState([]);
-
+  const [id,setId] = useState([]);
   useEffect(() => {
     const obtenerDatos = async () => {
         const data = await fetch('https://jsonplaceholder.typicode.com/photos');
         const photosData = await data.json();
         setPhotos(photosData.slice(0, 3).map((photo) => photo.url));
+        setId(photosData.slice(0, 3).map((photo) => photo.id));
     };
     obtenerDatos();
   }, []);
@@ -24,13 +26,19 @@ function Api() {
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-            <Img src={photos[0]} className="d-block w-100" alt="..." width={600} height={500}/>
+            <Link href={`/imagenes/${id[0]}`}>
+              <Img src={photos[0]} className="d-block w-100" alt="..." width={600} height={500}/>
+            </Link>
             </div>
             <div class="carousel-item">
+            <Link href={`/imagenes/${id[1]}`}>
             <Img src={photos[1]} className="d-block w-100" alt="..." width={600} height={500}/>
+            </Link>
             </div>
             <div class="carousel-item">
-            <Img src={photos[2]} className="d-block w-100" alt="..." width={600} height={500}/>
+              <Link href={`/imagenes/${id[3]}`}>
+              <Img src={photos[2]} className="d-block w-100" alt="..." width={600} height={500}/>
+              </Link>
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

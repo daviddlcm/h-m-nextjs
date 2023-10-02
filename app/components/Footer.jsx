@@ -1,12 +1,12 @@
 import React from 'react'
 import "./styles.css"
 import Img from "next/image"
-import face from "../public/assets/facebook.png"
-import insta from "../public/assets/instagram.png"
-import youtube from "../public/assets/youtube.png"
-import twitter from "../public/assets/gorjeo.png"
-import pinter from "../public/assets/logotipo-de-pinterest.png"
-import logo from "../public/assets/logoh&m.webp"
+import face from "../../public/assets/facebook.png"
+import insta from "../../public/assets/instagram.png"
+import youtube from "../../public/assets/youtube.png"
+import twitter from "../../public/assets/gorjeo.png"
+import pinter from "../../public/assets/logotipo-de-pinterest.png"
+import logo from "../../public/assets/logoh&m.webp"
 function Footer() {
   return (
     <div className="footer__container">

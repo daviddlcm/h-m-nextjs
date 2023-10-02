@@ -1,14 +1,14 @@
 import React from 'react'
-import TextosNav from '@/components/TextosNav'
-import ImgSecciones from '@/components/ImgSecciones'
-import ImgBig from '@/components/ImgBig'
+import TextosNav from '@/app/components/TextosNav'
+import ImgSecciones from '@/app/components/ImgSecciones'
+import ImgBig from '@/app/components/ImgBig'
 import Img1 from "../public/assets/img3.jpg"
 import Img2 from "../public/assets/modelo4.jpg"
 import Img3 from "../public/assets/modelo5.jpg"
 import Img4 from "../public/assets/modelo6.png"
-import ContenedorCards from '@/components/ContenedorCards'
-import Api from '@/components/Api'
-import Carusel from '@/components/Carusel'
+import ContenedorCards from '@/app/components/ContenedorCards'
+import Api from '@/app/components/Api'
+import Carusel from '@/app/components/Carusel'
 function PageMain() {
   return (
     <div>

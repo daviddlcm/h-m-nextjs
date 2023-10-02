@@ -1,6 +1,6 @@
 import React from 'react'
 import Botones from './botones'
-import fondo from "../public/assets/arean2.jpg"
+import fondo from "../../public/assets/arean2.jpg"
 import Img from "next/image"
 function ImgSecciones() {
   return (
