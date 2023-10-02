@@ -1,5 +1,12 @@
 import React from 'react'
 import "./styles.css"
+import Img from "next/image"
+import face from "../public/assets/facebook.png"
+import insta from "../public/assets/instagram.png"
+import youtube from "../public/assets/youtube.png"
+import twitter from "../public/assets/gorjeo.png"
+import pinter from "../public/assets/logotipo-de-pinterest.png"
+import logo from "../public/assets/logoh&m.webp"
 function Footer() {
   return (
     <div className="footer__container">
@@ -50,9 +57,23 @@ function Footer() {
                     <p>¡Unete ahora y recibe un 10% de descuento en tu próxima compra!</p>
                     <p>CONOCE MAS</p>
                 </div>
+                
             </div>
+                <div className='redes'>
+                    <Img src={face} alt="facebook" width={25} height={25}/>
+                    <Img src={twitter} alt="twitter" width={25} height={25}/>
+                    <Img src={insta} alt="instagram" width={25} height={25}/>
+                    <Img src={youtube} alt="youtube" width={25} height={25}/>
+                    <Img src={pinter} alt="pinterest" width={25} height={25}/>
+                </div>
             <div className='textoAbajo'>
                 <p>El contenido de este sitio está protegido por copyRight y es propiedad de H&M Hennes & Mauritz AB.</p>
+            </div>
+            <div className='logo'>
+                <Img src={logo} alt="H&M" width={70} height={70}/>
+            </div>
+            <div className="textoAbajo">
+                <p>Mexico | $</p>
             </div>
         </footer>
     </div>
